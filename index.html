@@ -1,447 +1,1398 @@
-{
-    "teams": [
-        { 
-            "name": "Time CAIO", 
-            "captain": "CAIO", 
-            "players": ["CAIO", "Capita", "snow", "gabi", "dipi"],
-            "logo": "team1.png"
-        },
-        { 
-            "name": "Time GPKs", 
-            "captain": "GPKs", 
-            "players": ["GPKs", "Waka", "recruta", "Givaldo", "Jaguara"],
-            "logo": "team2.png"
-        },
-        { 
-            "name": "Time DYLAN", 
-            "captain": "DYLAN", 
-            "players": ["DYLAN", "Rio", "Axel", "Aninha", "Bigas"],
-            "logo": "team3.png"
-        },
-        { 
-            "name": "Time Guy", 
-            "captain": "Guy", 
-            "players": ["Guy", "Datebayo", "2T", "Mizuno", "Dino"],
-            "logo": "team4.png"
-        },
-        { 
-            "name": "Time Ariel", 
-            "captain": "Ariel", 
-            "players": ["Ariel", "Lord", "Gorila", "GGamba", "Bala"],
-            "logo": "team5.png"
-        },
-        { 
-            "name": "Time Fok1nha", 
-            "captain": "Fok1nha", 
-            "players": ["Fok1nha", "Baby", "Cremes", "Luffy", "Camis"],
-            "logo": "team6.png"
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FKB Championship | Dashboard Profissional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff5722;
+            --secondary: #2196f3;
+            --accent: #ffc107;
+            --dark: #121a24;
+            --darker: #0d121b;
+            --light: #f5f5f5;
+            --gray: #2d3748;
+            --success: #4caf50;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
-    ],
-    "matches": [
-        {
-            "round": 1,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 1,
-            "teamA": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 1,
-            "teamA": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 2,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 2,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 2,
-            "teamA": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "19/11/2023",
-            "map": "A definir"
-        },
-        {
-            "round": 3,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 3,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 3,
-            "teamA": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 4,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 4,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 4,
-            "teamA": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 5,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 5,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 5,
-            "teamA": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Rajdhani', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-    ]
-}
+
+        body {
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--gray);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .logo-text h1 {
+            color: var(--accent);
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo-text p {
+            color: var(--secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: linear-gradient(145deg, var(--darker), #151e2b);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            border-top: 4px solid var(--primary);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.03));
+            pointer-events: none;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--gray);
+        }
+
+        .card-header h2 {
+            color: var(--accent);
+            font-size: 1.4rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card-header .icon {
+            color: var(--primary);
+            font-size: 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Times Participantes */
+        .team-card {
+            background: rgba(33, 150, 243, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--secondary);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .team-card:hover {
+            background: rgba(33, 150, 243, 0.2);
+            transform: translateX(5px);
+        }
+
+        .team-card h3 {
+            color: var(--light);
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .team-card h3 i {
+            color: var(--accent);
+        }
+
+        .team-card p {
+            color: #a0aec0;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        /* Partidas - Visualização Compacta */
+        .match-card {
+            background: rgba(255, 87, 34, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--primary);
+            transition: var(--transition);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .match-card::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.3);
+            transition: var(--transition);
+        }
+
+        .match-card.expanded::after {
+            content: '-';
+        }
+
+        .match-card:hover {
+            background: rgba(255, 87, 34, 0.2);
+        }
+
+        .match-teams {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .team-name {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--light);
+            flex: 1;
+        }
+
+        .team-name.captain {
+            color: var(--accent);
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .team-name.captain::before {
+            content: '©';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-size: 0.8rem;
+        }
+
+        .match-score {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 0 15px;
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .match-meta {
+            display: flex;
+            justify-content: space-between;
+            color: #a0aec0;
+            font-size: 0.85rem;
+            margin-top: 5px;
+        }
+
+        /* Detalhes Expandidos da Partida */
+        .match-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+        }
+
+        .match-card.expanded .match-details {
+            max-height: 1000px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--gray);
+        }
+
+        .players-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .team-players {
+            flex: 1;
+        }
+
+        .team-title {
+            color: var(--light);
+            font-weight: 600;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid var(--gray);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .player-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(45, 55, 72, 0.3);
+            font-size: 0.9rem;
+        }
+
+        .player-row:last-child {
+            border-bottom: none;
+        }
+
+        .player-name {
+            flex: 2;
+            color: var(--light);
+        }
+
+        .player-stats {
+            display: flex;
+            flex: 3;
+        }
+
+        .player-stats span {
+            flex: 1;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .player-stats .kills {
+            color: var(--primary);
+        }
+
+        .player-stats .assists {
+            color: var(--secondary);
+        }
+
+        .player-stats .deaths {
+            color: #a0aec0;
+        }
+
+        .player-stats .hs {
+            color: var(--accent);
+        }
+
+        .player-stats .adr {
+            color: var(--success);
+        }
+
+        .stats-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 0.8rem;
+            color: #a0aec0;
+            padding: 0 5px;
+        }
+
+        .stats-header span {
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Top Players */
+        .player-rank {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 6px;
+            margin-bottom: 10px;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .player-rank::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--primary);
+        }
+
+        .player-rank:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateX(5px);
+        }
+
+        .rank {
+            font-weight: 700;
+            color: var(--accent);
+            width: 30px;
+            font-size: 1.2rem;
+        }
+
+        .player-info {
+            flex-grow: 1;
+        }
+
+        .player-info h4 {
+            color: var(--light);
+            font-size: 1.1rem;
+            margin-bottom: 3px;
+        }
+
+        .player-info p {
+            color: #a0aec0;
+            font-size: 0.85rem;
+        }
+
+        .player-stats-info {
+            text-align: right;
+        }
+
+        .player-stats-info .kills {
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .player-stats-info .kd {
+            color: var(--success);
+            font-size: 0.9rem;
+        }
+
+        /* Estatísticas */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-color: rgba(255, 193, 7, 0.2);
+        }
+
+        .stat-card h3 {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--light);
+            margin-bottom: 5px;
+        }
+
+        .stat-card .label {
+            color: #a0aec0;
+            font-size: 0.8rem;
+        }
+
+        /* Tabela de Jogos */
+        .matches-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .matches-table th {
+            background-color: var(--gray);
+            color: var(--accent);
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .matches-table td {
+            padding: 15px;
+            border-bottom: 1px solid var(--gray);
+            vertical-align: top;
+        }
+
+        .matches-table tr:hover {
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+
+        .round-number {
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Playoffs */
+        .playoff-match {
+            background: rgba(255, 193, 7, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--accent);
+        }
+
+        .playoff-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .playoff-teams {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .playoff-team {
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .playoff-team.winner {
+            background: rgba(76, 175, 80, 0.2);
+            border: 1px solid var(--success);
+        }
+
+        .playoff-team-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .playoff-team-score {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--light);
+        }
+
+        .playoff-vs {
+            font-size: 1.2rem;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .playoff-maps-tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            overflow-x: auto;
+        }
+
+        .playoff-map-tab {
+            padding: 8px 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .playoff-map-tab:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .playoff-map-tab.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .playoff-map-tab.won-a {
+            position: relative;
+            border: 1px solid var(--primary);
+        }
+
+        .playoff-map-tab.won-a::after {
+            content: '✓';
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: var(--primary);
+            color: white;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            line-height: 16px;
+        }
+
+        .playoff-map-tab.won-b {
+            position: relative;
+            border: 1px solid var(--secondary);
+        }
+
+        .playoff-map-tab.won-b::after {
+            content: '✓';
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: var(--secondary);
+            color: white;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            line-height: 16px;
+        }
+
+        .playoff-map-content {
+            display: none;
+        }
+
+        .playoff-map-content.active {
+            display: block;
+        }
+
+        .playoff-date {
+            color: #a0aec0;
+            font-size: 0.9rem;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .playoff-status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .playoff-status.upcoming {
+            background: rgba(255, 193, 7, 0.2);
+            color: var(--accent);
+        }
+
+        .playoff-status.live {
+            background: rgba(255, 87, 34, 0.2);
+            color: var(--primary);
+            animation: pulse 1.5s infinite;
+        }
+
+        .playoff-status.completed {
+            background: rgba(76, 175, 80, 0.2);
+            color: var(--success);
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+            
+            .logo {
+                justify-content: center;
+            }
+            
+            .dashboard {
+                grid-template-columns: 1fr;
+            }
+            
+            .players-container {
+                flex-direction: column;
+            }
+            
+            .team-players {
+                margin-bottom: 15px;
+            }
+            
+            .matches-table th, 
+            .matches-table td {
+                padding: 10px;
+            }
+
+            .playoff-teams {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .playoff-team-score {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-trophy" style="font-size: 2.5rem; color: var(--accent);"></i>
+                <div class="logo-text">
+                    <h1>FKB Championship</h1>
+                    <p>PROFESSIONAL ESPORTS TOURNAMENT</p>
+                </div>
+            </div>
+            <div class="tournament-info">
+                <p style="color: var(--secondary); font-weight: 500; display: flex; align-items: center; gap: 8px;">
+                    <i class="fas fa-calendar-alt"></i> 15-30 NOV 2023
+                </p>
+            </div>
+        </header>
+
+        <div class="dashboard">
+            <!-- Times Participantes -->
+            <div class="card">
+                <div class="card-header">
+                    <h2><i class="fas fa-users"></i> Times Participantes</h2>
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                </div>
+                <div id="teams-container"></div>
+            </div>
+
+            <!-- Partidas Recentes -->
+            <div class="card">
+                <div class="card-header">
+                    <h2><i class="fas fa-gamepad"></i> Partidas Recentes</h2>
+                    <div class="icon"><i class="fas fa-history"></i></div>
+                </div>
+                <div id="matches-container"></div>
+            </div>
+
+            <!-- Top 10 Players -->
+            <div class="card">
+                <div class="card-header">
+                    <h2><i class="fas fa-crown"></i> Top 10 Players</h2>
+                    <div class="icon"><i class="fas fa-star"></i></div>
+                </div>
+                <div id="top-players-container"></div>
+            </div>
+        </div>
+
+        <!-- Todos os Jogos Agendados -->
+        <div class="card">
+            <div class="card-header">
+                <h2><i class="fas fa-calendar"></i> Todos os Jogos</h2>
+                <div class="icon"><i class="fas fa-list"></i></div>
+            </div>
+            <div id="all-matches-container"></div>
+        </div>
+
+        <!-- Playoffs - Semifinais -->
+        <div class="card">
+            <div class="card-header">
+                <h2><i class="fas fa-trophy"></i> Playoffs - Semifinais (MD3)</h2>
+                <div class="icon"><i class="fas fa-chess-knight"></i></div>
+            </div>
+            <div id="playoffs-semifinals-container"></div>
+        </div>
+
+        <!-- Playoffs - Final -->
+        <div class="card">
+            <div class="card-header">
+                <h2><i class="fas fa-trophy"></i> Final (MD3)</h2>
+                <div class="icon"><i class="fas fa-crown"></i></div>
+            </div>
+            <div id="playoffs-final-container"></div>
+        </div>
+
+        <!-- Estatísticas Detalhadas -->
+        <div class="card">
+            <div class="card-header">
+                <h2><i class="fas fa-chart-bar"></i> Estatísticas</h2>
+                <div class="icon"><i class="fas fa-sliders-h"></i></div>
+            </div>
+            <div class="stats-grid" id="stats-container"></div>
+        </div>
+    </div>
+
+    <script>
+        let tournamentData = {};
+
+        // Função para encontrar um time pelo nome
+        function findTeamByName(teamName) {
+            return tournamentData.teams.find(team => team.name === teamName);
+        }
+
+        // Função para renderizar todos os jogos agendados
+        function renderAllMatches() {
+            const container = document.getElementById('all-matches-container');
+            container.innerHTML = '';
+            
+            // Agrupar jogos por rodada
+            const matchesByRound = {};
+            tournamentData.matches.forEach(match => {
+                if (!matchesByRound[match.round]) {
+                    matchesByRound[match.round] = [];
+                }
+                matchesByRound[match.round].push(match);
+            });
+            
+            // Criar tabela de jogos
+            const table = document.createElement('table');
+            table.className = 'matches-table';
+            
+            // Cabeçalho da tabela
+            const thead = document.createElement('thead');
+            thead.innerHTML = `
+                <tr>
+                    <th>Rodada</th>
+                    <th>Jogo 1</th>
+                    <th>Jogo 2</th>
+                    <th>Jogo 3</th>
+                </tr>
+            `;
+            table.appendChild(thead);
+            
+            // Corpo da tabela
+            const tbody = document.createElement('tbody');
+            
+            // Para cada rodada
+            for (const round in matchesByRound) {
+                const roundMatches = matchesByRound[round];
+                
+                const row = document.createElement('tr');
+                
+                // Coluna da rodada
+                const roundCell = document.createElement('td');
+                roundCell.innerHTML = `<span class="round-number">Rodada ${round}</span>`;
+                row.appendChild(roundCell);
+                
+                // Colunas dos jogos
+                for (let i = 0; i < 3; i++) {
+                    const matchCell = document.createElement('td');
+                    
+                    if (i < roundMatches.length) {
+                        const match = roundMatches[i];
+                        const teamA = findTeamByName(match.teamA.name);
+                        const teamB = findTeamByName(match.teamB.name);
+                        
+                        matchCell.innerHTML = `
+                            <div class="match-card" onclick="toggleMatchDetails(this)">
+                                <div class="match-teams">
+                                    <span class="team-name captain">${teamA.captain || teamA.players[0]}</span>
+                                    <span class="match-score">${match.teamA.score} : ${match.teamB.score}</span>
+                                    <span class="team-name captain">${teamB.captain || teamB.players[0]}</span>
+                                </div>
+                                <div class="match-meta">
+                                    <span><i class="fas fa-map"></i> ${match.map}</span>
+                                    <span><i class="far fa-calendar-alt"></i> ${match.date}</span>
+                                </div>
+                                <div class="match-details">
+                                    <div class="stats-header">
+                                        <span>Jogador</span>
+                                        <span>K</span>
+                                        <span>A</span>
+                                        <span>D</span>
+                                        <span>HS%</span>
+                                        <span>ADR</span>
+                                    </div>
+                                    <div class="players-container">
+                                        <div class="team-players">
+                                            <div class="team-title">${match.teamA.name}</div>
+                                            ${match.teamA.players.map(player => `
+                                                <div class="player-row">
+                                                    <span class="player-name">${player.name}</span>
+                                                    <div class="player-stats">
+                                                        <span class="kills">${player.kills}</span>
+                                                        <span class="assists">${player.assists}</span>
+                                                        <span class="deaths">${player.deaths}</span>
+                                                        <span class="hs">${player.hs}%</span>
+                                                        <span class="adr">${player.adr}</span>
+                                                    </div>
+                                                </div>
+                                            `).join('')}
+                                        </div>
+                                        <div class="team-players">
+                                            <div class="team-title">${match.teamB.name}</div>
+                                            ${match.teamB.players.map(player => `
+                                                <div class="player-row">
+                                                    <span class="player-name">${player.name}</span>
+                                                    <div class="player-stats">
+                                                        <span class="kills">${player.kills}</span>
+                                                        <span class="assists">${player.assists}</span>
+                                                        <span class="deaths">${player.deaths}</span>
+                                                        <span class="hs">${player.hs}%</span>
+                                                        <span class="adr">${player.adr}</span>
+                                                    </div>
+                                                </div>
+                                            `).join('')}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    
+                    row.appendChild(matchCell);
+                }
+                
+                tbody.appendChild(row);
+            }
+            
+            table.appendChild(tbody);
+            container.appendChild(table);
+        }
+
+        // Alternar detalhes da partida
+        function toggleMatchDetails(element) {
+            element.classList.toggle('expanded');
+            
+            // Fechar outros cards abertos
+            const allMatches = document.querySelectorAll('.match-card');
+            allMatches.forEach(match => {
+                if (match !== element && match.classList.contains('expanded')) {
+                    match.classList.remove('expanded');
+                }
+            });
+        }
+
+        // Função para calcular todas as estatísticas
+        function calculateAllStats() {
+            const playerStats = {};
+            
+            // Inicializa estatísticas para todos os jogadores
+            tournamentData.teams.forEach(team => {
+                team.players.forEach(playerName => {
+                    playerStats[playerName] = {
+                        kills: 0,
+                        assists: 0,
+                        deaths: 0,
+                        headshots: 0,
+                        matches: 0,
+                        team: team.name
+                    };
+                });
+            });
+            
+            // Acumula estatísticas das partidas
+            tournamentData.matches.forEach(match => {
+                // Time A
+                match.teamA.players.forEach(player => {
+                    if (playerStats[player.name]) {
+                        playerStats[player.name].kills += player.kills || 0;
+                        playerStats[player.name].assists += player.assists || 0;
+                        playerStats[player.name].deaths += player.deaths || 0;
+                        playerStats[player.name].headshots += player.hs || 0;
+                        playerStats[player.name].matches += 1;
+                    }
+                });
+                
+                // Time B
+                match.teamB.players.forEach(player => {
+                    if (playerStats[player.name]) {
+                        playerStats[player.name].kills += player.kills || 0;
+                        playerStats[player.name].assists += player.assists || 0;
+                        playerStats[player.name].deaths += player.deaths || 0;
+                        playerStats[player.name].headshots += player.hs || 0;
+                        playerStats[player.name].matches += 1;
+                    }
+                });
+            });
+            
+            // Calcula médias e ratios
+            for (const player in playerStats) {
+                const stats = playerStats[player];
+                stats.kdRatio = stats.deaths > 0 ? (stats.kills / stats.deaths).toFixed(2) : stats.kills.toFixed(2);
+                stats.avgKills = (stats.kills / stats.matches).toFixed(1);
+                stats.avgAssists = (stats.assists / stats.matches).toFixed(1);
+                stats.avgDeaths = (stats.deaths / stats.matches).toFixed(1);
+                stats.hsPercentage = stats.kills > 0 ? Math.round((stats.headshots / stats.kills) * 100) : 0;
+            }
+            
+            return playerStats;
+        }
+
+        // Renderiza os times participantes
+        function renderTeams() {
+            const container = document.getElementById('teams-container');
+            container.innerHTML = '';
+            
+            tournamentData.teams.forEach(team => {
+                const teamDiv = document.createElement('div');
+                teamDiv.className = 'team-card';
+                teamDiv.innerHTML = `
+                    <h3><i class="fas fa-users"></i> ${team.name}</h3>
+                    ${team.captain ? `<p><strong>Capitão:</strong> ${team.captain}</p>` : ''}
+                    <p><strong>Jogadores:</strong> ${team.players.join(', ')}</p>
+                `;
+                container.appendChild(teamDiv);
+            });
+        }
+
+        // Renderiza as partidas recentes
+        function renderMatches() {
+            const container = document.getElementById('matches-container');
+            container.innerHTML = '';
+            
+            // Pega as 3 partidas mais recentes (assumindo que estão ordenadas por data)
+            const recentMatches = tournamentData.matches.slice(0, 3);
+            
+            recentMatches.forEach(match => {
+                const teamA = findTeamByName(match.teamA.name);
+                const teamB = findTeamByName(match.teamB.name);
+                
+                const matchDiv = document.createElement('div');
+                matchDiv.className = 'match-card';
+                matchDiv.onclick = function() { toggleMatchDetails(this); };
+                matchDiv.innerHTML = `
+                    <div class="match-teams">
+                        <span class="team-name captain">${teamA.captain || teamA.players[0]}</span>
+                        <span class="match-score">${match.teamA.score} : ${match.teamB.score}</span>
+                        <span class="team-name captain">${teamB.captain || teamB.players[0]}</span>
+                    </div>
+                    <div class="match-meta">
+                        <span><i class="fas fa-map"></i> ${match.map}</span>
+                        <span><i class="far fa-calendar-alt"></i> ${match.date}</span>
+                    </div>
+                    <div class="match-details">
+                        <div class="stats-header">
+                            <span>Jogador</span>
+                            <span>K</span>
+                            <span>A</span>
+                            <span>D</span>
+                            <span>HS%</span>
+                            <span>ADR</span>
+                        </div>
+                        <div class="players-container">
+                            <div class="team-players">
+                                <div class="team-title">${match.teamA.name}</div>
+                                ${match.teamA.players.map(player => `
+                                    <div class="player-row">
+                                        <span class="player-name">${player.name}</span>
+                                        <div class="player-stats">
+                                            <span class="kills">${player.kills}</span>
+                                            <span class="assists">${player.assists}</span>
+                                            <span class="deaths">${player.deaths}</span>
+                                            <span class="hs">${player.hs}%</span>
+                                            <span class="adr">${player.adr}</span>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="team-players">
+                                <div class="team-title">${match.teamB.name}</div>
+                                ${match.teamB.players.map(player => `
+                                    <div class="player-row">
+                                        <span class="player-name">${player.name}</span>
+                                        <div class="player-stats">
+                                            <span class="kills">${player.kills}</span>
+                                            <span class="assists">${player.assists}</span>
+                                            <span class="deaths">${player.deaths}</span>
+                                            <span class="hs">${player.hs}%</span>
+                                            <span class="adr">${player.adr}</span>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(matchDiv);
+            });
+        }
+
+        // Renderiza o Top 10 Players
+        function renderTopPlayers() {
+            const allStats = calculateAllStats();
+            const container = document.getElementById('top-players-container');
+            container.innerHTML = '';
+            
+            // Converte para array e ordena por kills
+            const playersArray = Object.entries(allStats).map(([name, stats]) => ({ name, ...stats }));
+            playersArray.sort((a, b) => b.kills - a.kills);
+            
+            // Pega os top 10
+            const top10 = playersArray.slice(0, 10);
+            
+            top10.forEach((player, index) => {
+                const playerDiv = document.createElement('div');
+                playerDiv.className = 'player-rank';
+                playerDiv.innerHTML = `
+                    <div class="rank">#${index + 1}</div>
+                    <div class="player-info">
+                        <h4>${player.name}</h4>
+                        <p>${player.team}</p>
+                    </div>
+                    <div class="player-stats-info">
+                        <div class="kills">${player.kills} kills</div>
+                        <div class="kd">KD: ${player.kdRatio}</div>
+                    </div>
+                `;
+                container.appendChild(playerDiv);
+            });
+        }
+
+        // Renderiza estatísticas gerais
+        function renderGeneralStats() {
+            const allStats = calculateAllStats();
+            const container = document.getElementById('stats-container');
+            container.innerHTML = '';
+            
+            // Converte para array
+            const playersArray = Object.entries(allStats).map(([name, stats]) => ({ name, ...stats }));
+            
+            // Calcula totais
+            const totalKills = playersArray.reduce((sum, player) => sum + player.kills, 0);
+            const totalAssists = playersArray.reduce((sum, player) => sum + player.assists, 0);
+            const totalHeadshots = playersArray.reduce((sum, player) => sum + player.headshots, 0);
+            const totalMatches = tournamentData.matches.length;
+            
+            // Encontra o jogador com mais kills
+            const topFragger = playersArray.sort((a, b) => b.kills - a.kills)[0];
+            
+            // Adiciona cards de estatísticas
+            const stats = [
+                { title: "Total de Kills", value: totalKills, icon: "fas fa-crosshairs" },
+                { title: "Total de Assists", value: totalAssists, icon: "fas fa-handshake" },
+                { title: "Headshots", value: totalHeadshots, icon: "fas fa-bullseye" },
+                { title: "Partidas Jogadas", value: totalMatches, icon: "fas fa-gamepad" },
+                { title: "Top Fragger", value: topFragger.name, subvalue: `${topFragger.kills} kills`, icon: "fas fa-crown" },
+                { title: "Melhor KD Ratio", value: playersArray.sort((a, b) => b.kdRatio - a.kdRatio)[0].name, subvalue: playersArray.sort((a, b) => b.kdRatio - a.kdRatio)[0].kdRatio, icon: "fas fa-chart-line" }
+            ];
+            
+            stats.forEach(stat => {
+                const statCard = document.createElement('div');
+                statCard.className = 'stat-card';
+                statCard.innerHTML = `
+                    <h3><i class="${stat.icon}"></i> ${stat.title}</h3>
+                    <div class="value">${stat.value}</div>
+                    ${stat.subvalue ? `<div class="label">${stat.subvalue}</div>` : ''}
+                `;
+                container.appendChild(statCard);
+            });
+        }
+
+        // Função para renderizar as semifinais
+        function renderPlayoffSemifinals() {
+            const container = document.getElementById('playoffs-semifinals-container');
+            container.innerHTML = '';
+            
+            if (!tournamentData.playoffs || !tournamentData.playoffs.semifinals) {
+                container.innerHTML = '<p>Semifinais ainda não definidas</p>';
+                return;
+            }
+            
+            tournamentData.playoffs.semifinals.forEach(match => {
+                const matchDiv = document.createElement('div');
+                matchDiv.className = 'playoff-match';
+                
+                matchDiv.innerHTML = `
+                    <div class="playoff-header">
+                        <h3>Semifinal ${match.matchId === 'sf1' ? '1' : '2'} - Melhor de 3</h3>
+                        <span class="playoff-status ${match.completed ? 'completed' : 'upcoming'}">
+                            ${match.completed ? 'CONCLUÍDO' : 'EM BREVE'}
+                        </span>
+                    </div>
+                    <div class="playoff-teams">
+                        <div class="playoff-team ${match.teamA.wins === 2 ? 'winner' : ''}">
+                            <div class="playoff-team-name">${match.teamA.name}</div>
+                            <div class="playoff-team-score">${match.teamA.wins}</div>
+                        </div>
+                        <div class="playoff-vs">vs</div>
+                        <div class="playoff-team ${match.teamB.wins === 2 ? 'winner' : ''}">
+                            <div class="playoff-team-name">${match.teamB.name}</div>
+                            <div class="playoff-team-score">${match.teamB.wins}</div>
+                        </div>
+                    </div>
+                    <div class="playoff-maps-tabs" id="tabs-${match.matchId}">
+                        ${match.maps.map((map, index) => {
+                            const winner = map.scoreA > map.scoreB ? 'won-a' : 'won-b';
+                            return `
+                                <div class="playoff-map-tab ${index === 0 ? 'active' : ''} ${winner}" 
+                                     data-match="${match.matchId}" 
+                                     data-map-index="${index}">
+                                    ${map.name} (${map.scoreA}-${map.scoreB})
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                    <div class="playoff-maps-content" id="content-${match.matchId}">
+                        ${match.maps.map((map, index) => `
+                            <div class="playoff-map-content ${index === 0 ? 'active' : ''}" 
+                                 data-match="${match.matchId}" 
+                                 data-map-index="${index}">
+                                ${renderMapScoreboard(map, match.teamA.name, match.teamB.name)}
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="playoff-date">
+                        <i class="far fa-calendar-alt"></i> ${match.date}
+                    </div>
+                `;
+                
+                container.appendChild(matchDiv);
+            });
+            
+            // Adiciona event listeners para as abas
+            document.querySelectorAll('.playoff-map-tab').forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const matchId = this.getAttribute('data-match');
+                    const mapIndex = this.getAttribute('data-map-index');
+                    
+                    // Remove active de todas as abas e conteúdos deste match
+                    document.querySelectorAll(`#tabs-${matchId} .playoff-map-tab`).forEach(t => {
+                        t.classList.remove('active');
+                    });
+                    document.querySelectorAll(`#content-${matchId} .playoff-map-content`).forEach(c => {
+                        c.classList.remove('active');
+                    });
+                    
+                    // Adiciona active para a aba e conteúdo clicados
+                    this.classList.add('active');
+                    document.querySelector(`#content-${matchId} .playoff-map-content[data-map-index="${mapIndex}"]`).classList.add('active');
+                });
+            });
+        }
+
+        // Função para renderizar a final
+        function renderPlayoffFinal() {
+            const container = document.getElementById('playoffs-final-container');
+            container.innerHTML = '';
+            
+            if (!tournamentData.playoffs || !tournamentData.playoffs.final) {
+                container.innerHTML = '<p>Final ainda não definida</p>';
+                return;
+            }
+            
+            const final = tournamentData.playoffs.final;
+            
+            const matchDiv = document.createElement('div');
+            matchDiv.className = 'playoff-match';
+            
+            const statusClass = final.completed ? 'completed' : (final.date === 'hoje' ? 'live' : 'upcoming');
+            const statusText = final.completed ? 'CONCLUÍDO' : (final.date === 'hoje' ? 'AO VIVO' : 'EM BREVE');
+            
+            matchDiv.innerHTML = `
+                <div class="playoff-header">
+                    <h3>Grande Final - Melhor de 3</h3>
+                    <span class="playoff-status ${statusClass}">${statusText}</span>
+                </div>
+                <div class="playoff-teams">
+                    <div class="playoff-team ${final.teamA.wins === 2 ? 'winner' : ''}">
+                        <div class="playoff-team-name">${final.teamA?.name || 'A definir'}</div>
+                        <div class="playoff-team-score">${final.teamA?.wins || 0}</div>
+                    </div>
+                    <div class="playoff-vs">vs</div>
+                    <div class="playoff-team ${final.teamB.wins === 2 ? 'winner' : ''}">
+                        <div class="playoff-team-name">${final.teamB?.name || 'A definir'}</div>
+                        <div class="playoff-team-score">${final.teamB?.wins || 0}</div>
+                    </div>
+                </div>
+                <div class="playoff-maps-tabs" id="tabs-final">
+                    ${final.maps.map((map, index) => {
+                        if (map.scoreA === 0 && map.scoreB === 0) {
+                            return `
+                                <div class="playoff-map-tab ${index === 0 ? 'active' : ''}" 
+                                     data-match="final" 
+                                     data-map-index="${index}">
+                                    ${map.name}
+                                </div>
+                            `;
+                        } else {
+                            const winner = map.scoreA > map.scoreB ? 'won-a' : 'won-b';
+                            return `
+                                <div class="playoff-map-tab ${index === 0 ? 'active' : ''} ${winner}" 
+                                     data-match="final" 
+                                     data-map-index="${index}">
+                                    ${map.name} (${map.scoreA}-${map.scoreB})
+                                </div>
+                            `;
+                        }
+                    }).join('')}
+                </div>
+                <div class="playoff-maps-content" id="content-final">
+                    ${final.maps.map((map, index) => `
+                        <div class="playoff-map-content ${index === 0 ? 'active' : ''}" 
+                             data-match="final" 
+                             data-map-index="${index}">
+                            ${final.teamA && final.teamB ? renderMapScoreboard(map, final.teamA.name, final.teamB.name) : '<p>Scoreboard indisponível</p>'}
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="playoff-date">
+                    <i class="far fa-calendar-alt"></i> ${final.date}
+                </div>
+            `;
+            
+            container.appendChild(matchDiv);
+            
+            // Adiciona event listeners para as abas
+            document.querySelectorAll('#tabs-final .playoff-map-tab').forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const mapIndex = this.getAttribute('data-map-index');
+                    
+                    // Remove active de todas as abas e conteúdos
+                    document.querySelectorAll('#tabs-final .playoff-map-tab').forEach(t => {
+                        t.classList.remove('active');
+                    });
+                    document.querySelectorAll('#content-final .playoff-map-content').forEach(c => {
+                        c.classList.remove('active');
+                    });
+                    
+                    // Adiciona active para a aba e conteúdo clicados
+                    this.classList.add('active');
+                    document.querySelector(`#content-final .playoff-map-content[data-map-index="${mapIndex}"]`).classList.add('active');
+                });
+            });
+        }
+
+        // Função para renderizar o scoreboard de um mapa
+        function renderMapScoreboard(map, teamAName, teamBName) {
+            return `
+                <div class="match-details">
+                    <div class="stats-header">
+                        <span>Jogador</span>
+                        <span>K</span>
+                        <span>A</span>
+                        <span>D</span>
+                        <span>HS%</span>
+                        <span>ADR</span>
+                    </div>
+                    <div class="players-container">
+                        <div class="team-players">
+                            <div class="team-title">${teamAName}</div>
+                            ${map.playersStats.teamA.map(player => `
+                                <div class="player-row">
+                                    <span class="player-name">${player.name}</span>
+                                    <div class="player-stats">
+                                        <span class="kills">${player.kills}</span>
+                                        <span class="assists">${player.assists}</span>
+                                        <span class="deaths">${player.deaths}</span>
+                                        <span class="hs">${player.hs}%</span>
+                                        <span class="adr">${player.adr}</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <div class="team-players">
+                            <div class="team-title">${teamBName}</div>
+                            ${map.playersStats.teamB.map(player => `
+                                <div class="player-row">
+                                    <span class="player-name">${player.name}</span>
+                                    <div class="player-stats">
+                                        <span class="kills">${player.kills}</span>
+                                        <span class="assists">${player.assists}</span>
+                                        <span class="deaths">${player.deaths}</span>
+                                        <span class="hs">${player.hs}%</span>
+                                        <span class="adr">${player.adr}</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Carrega os dados e inicializa o dashboard
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                tournamentData = data;
+                // Inicializa o dashboard após carregar os dados
+                renderTeams();
+                renderMatches();
+                renderTopPlayers();
+                renderGeneralStats();
+                renderAllMatches();
+                renderPlayoffSemifinals();
+                renderPlayoffFinal();
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+                // Carrega dados locais se houver falha na requisição
+                tournamentData = {
+                    teams: [],
+                    matches: [],
+                    playoffs: { semifinals: [], final: null }
+                };
+                renderTeams();
+                renderMatches();
+                renderTopPlayers();
+                renderGeneralStats();
+                renderAllMatches();
+                renderPlayoffSemifinals();
+                renderPlayoffFinal();
+            });
+    </script>
+</body>
+</html>
