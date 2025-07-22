@@ -587,279 +587,21 @@
     </div>
 
     <script>
-        // Dados completos do campeonato
-        const tournamentData = {
-            "teams": [
-                { 
-                    "name": "Time CAIO", 
-                    "captain": "CAIO", 
-                    "players": ["CAIO", "Capita", "snow", "gabi", "dipi"],
-                    "logo": "team1.png"
-                },
-                { 
-                    "name": "Time GPKs", 
-                    "captain": "GPKs", 
-                    "players": ["GPKs", "Waka", "recruta", "Givaldo", "Jaguara"],
-                    "logo": "team2.png"
-                },
-                { 
-                    "name": "Time DYLAN", 
-                    "captain": "DYLAN", 
-                    "players": ["DYLAN", "Rio", "Axel", "Aninha", "Bigas"],
-                    "logo": "team3.png"
-                },
-                { 
-                    "name": "Time Guy", 
-                    "captain": "Guy", 
-                    "players": ["Guy", "Datebayo", "2T", "Mizuno", "Dino"],
-                    "logo": "team4.png"
-                },
-                { 
-                    "name": "Time Ariel", 
-                    "captain": "Ariel", 
-                    "players": ["Ariel", "Lord", "Gorila", "GGamba", "Bala"],
-                    "logo": "team5.png"
-                },
-                { 
-                    "name": "Time Fok1nha", 
-                    "captain": "Fok1nha", 
-                    "players": ["Fok1nha", "BabyBelaBala", "Cremes", "Luffy", "Camis"],
-                    "logo": "team6.png"
-                },
-                { 
-                    "name": "Reservas", 
-                    "players": ["Neymar", "Carnaval", "Romantico", "Jack"],
-                    "logo": "team6.png"
-                }
-            ],
-            "matches": [
-                {
-                    "round": 1,
-                    "teamA": "Time CAIO",
-                    "teamB": "Time GPKs",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "CAIO": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "snow": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "GPKs": { "kills": 0, "assists": 6, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Waka": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 1,
-                    "teamA": "Time DYLAN",
-                    "teamB": "Time Guy",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "DYLAN": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Rio": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Guy": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Datebayo": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 1,
-                    "teamA": "Time Ariel",
-                    "teamB": "Time Fok1nha",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "Ariel": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Lord": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Fok1nha": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "BabyBelaBala": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 2,
-                    "teamA": "Time CAIO",
-                    "teamB": "Time DYLAN",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "CAIO": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "snow": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "DYLAN": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Rio": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 2,
-                    "teamA": "Time GPKs",
-                    "teamB": "Time Ariel",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "GPKs": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Waka": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Ariel": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Lord": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 2,
-                    "teamA": "Time Guy",
-                    "teamB": "Time Fok1nha",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "Guy": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Datebayo": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Fok1nha": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "BabyBelaBala": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 3,
-                    "teamA": "Time CAIO",
-                    "teamB": "Time Guy",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "CAIO": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "snow": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Guy": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Datebayo": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 3,
-                    "teamA": "Time GPKs",
-                    "teamB": "Time Fok1nha",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "GPKs": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Waka": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Fok1nha": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "BabyBelaBala": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 3,
-                    "teamA": "Time DYLAN",
-                    "teamB": "Time Ariel",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "DYLAN": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Rio": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Ariel": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Lord": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 4,
-                    "teamA": "Time CAIO",
-                    "teamB": "Time Ariel",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "CAIO": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "snow": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Ariel": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Lord": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 4,
-                    "teamA": "Time GPKs",
-                    "teamB": "Time Guy",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "GPKs": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Waka": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Guy": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Datebayo": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 4,
-                    "teamA": "Time DYLAN",
-                    "teamB": "Time Fok1nha",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "DYLAN": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Rio": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Fok1nha": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "BabyBelaBala": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 5,
-                    "teamA": "Time CAIO",
-                    "teamB": "Time Fok1nha",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "CAIO": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "snow": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Fok1nha": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "BabyBelaBala": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 5,
-                    "teamA": "Time GPKs",
-                    "teamB": "Time DYLAN",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "GPKs": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Waka": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "DYLAN": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Rio": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                },
-                {
-                    "round": 5,
-                    "teamA": "Time Guy",
-                    "teamB": "Time Ariel",
-                    "scoreA": 0,
-                    "scoreB": 0,
-                    "date": "A definir",
-                    "map": "A definir",
-                    "playersStats": {
-                        "Guy": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Datebayo": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Ariel": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 },
-                        "Lord": { "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0 }
-                    }
-                }
-            ]
-        };
+        let tournamentData = {};
+
+        // Carrega os dados do JSON
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                tournamentData = data;
+                // Inicializa o dashboard após carregar os dados
+                renderTeams();
+                renderMatches();
+                renderTopPlayers();
+                renderGeneralStats();
+                renderAllMatches();
+            })
+            .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
 
         // Função para encontrar um time pelo nome
         function findTeamByName(teamName) {
@@ -916,14 +658,14 @@
                     
                     if (i < roundMatches.length) {
                         const match = roundMatches[i];
-                        const teamA = findTeamByName(match.teamA);
-                        const teamB = findTeamByName(match.teamB);
+                        const teamA = findTeamByName(match.teamA.name);
+                        const teamB = findTeamByName(match.teamB.name);
                         
                         matchCell.innerHTML = `
                             <div class="match-card" onclick="toggleMatchDetails(this)">
                                 <div class="match-teams">
                                     <span class="team-name captain">${teamA.captain || teamA.players[0]}</span>
-                                    <span class="match-score">${match.scoreA} : ${match.scoreB}</span>
+                                    <span class="match-score">${match.teamA.score} : ${match.teamB.score}</span>
                                     <span class="team-name captain">${teamB.captain || teamB.players[0]}</span>
                                 </div>
                                 <div class="match-meta">
@@ -941,31 +683,31 @@
                                     </div>
                                     <div class="players-container">
                                         <div class="team-players">
-                                            <div class="team-title">${match.teamA}</div>
-                                            ${teamA.players.map(player => `
+                                            <div class="team-title">${match.teamA.name}</div>
+                                            ${match.teamA.players.map(player => `
                                                 <div class="player-row">
-                                                    <span class="player-name">${player}</span>
+                                                    <span class="player-name">${player.name}</span>
                                                     <div class="player-stats">
-                                                        <span class="kills">${match.playersStats[player]?.kills || 0}</span>
-                                                        <span class="assists">${match.playersStats[player]?.assists || 0}</span>
-                                                        <span class="deaths">${match.playersStats[player]?.deaths || 0}</span>
-                                                        <span class="hs">${match.playersStats[player]?.hs || 0}%</span>
-                                                        <span class="adr">${match.playersStats[player]?.adr || 0}</span>
+                                                        <span class="kills">${player.kills}</span>
+                                                        <span class="assists">${player.assists}</span>
+                                                        <span class="deaths">${player.deaths}</span>
+                                                        <span class="hs">${player.hs}%</span>
+                                                        <span class="adr">${player.adr}</span>
                                                     </div>
                                                 </div>
                                             `).join('')}
                                         </div>
                                         <div class="team-players">
-                                            <div class="team-title">${match.teamB}</div>
-                                            ${teamB.players.map(player => `
+                                            <div class="team-title">${match.teamB.name}</div>
+                                            ${match.teamB.players.map(player => `
                                                 <div class="player-row">
-                                                    <span class="player-name">${player}</span>
+                                                    <span class="player-name">${player.name}</span>
                                                     <div class="player-stats">
-                                                        <span class="kills">${match.playersStats[player]?.kills || 0}</span>
-                                                        <span class="assists">${match.playersStats[player]?.assists || 0}</span>
-                                                        <span class="deaths">${match.playersStats[player]?.deaths || 0}</span>
-                                                        <span class="hs">${match.playersStats[player]?.hs || 0}%</span>
-                                                        <span class="adr">${match.playersStats[player]?.adr || 0}</span>
+                                                        <span class="kills">${player.kills}</span>
+                                                        <span class="assists">${player.assists}</span>
+                                                        <span class="deaths">${player.deaths}</span>
+                                                        <span class="hs">${player.hs}%</span>
+                                                        <span class="adr">${player.adr}</span>
                                                     </div>
                                                 </div>
                                             `).join('')}
@@ -1005,8 +747,8 @@
             
             // Inicializa estatísticas para todos os jogadores
             tournamentData.teams.forEach(team => {
-                team.players.forEach(player => {
-                    playerStats[player] = {
+                team.players.forEach(playerName => {
+                    playerStats[playerName] = {
                         kills: 0,
                         assists: 0,
                         deaths: 0,
@@ -1019,15 +761,27 @@
             
             // Acumula estatísticas das partidas
             tournamentData.matches.forEach(match => {
-                for (const [player, stats] of Object.entries(match.playersStats)) {
-                    if (playerStats[player]) {
-                        playerStats[player].kills += stats.kills || 0;
-                        playerStats[player].assists += stats.assists || 0;
-                        playerStats[player].deaths += stats.deaths || 0;
-                        playerStats[player].headshots += stats.hs || 0;
-                        playerStats[player].matches += 1;
+                // Time A
+                match.teamA.players.forEach(player => {
+                    if (playerStats[player.name]) {
+                        playerStats[player.name].kills += player.kills || 0;
+                        playerStats[player.name].assists += player.assists || 0;
+                        playerStats[player.name].deaths += player.deaths || 0;
+                        playerStats[player.name].headshots += player.hs || 0;
+                        playerStats[player.name].matches += 1;
                     }
-                }
+                });
+                
+                // Time B
+                match.teamB.players.forEach(player => {
+                    if (playerStats[player.name]) {
+                        playerStats[player.name].kills += player.kills || 0;
+                        playerStats[player.name].assists += player.assists || 0;
+                        playerStats[player.name].deaths += player.deaths || 0;
+                        playerStats[player.name].headshots += player.hs || 0;
+                        playerStats[player.name].matches += 1;
+                    }
+                });
             });
             
             // Calcula médias e ratios
@@ -1065,9 +819,12 @@
             const container = document.getElementById('matches-container');
             container.innerHTML = '';
             
-            tournamentData.matches.slice(0, 3).forEach(match => {
-                const teamA = findTeamByName(match.teamA);
-                const teamB = findTeamByName(match.teamB);
+            // Pega as 3 partidas mais recentes (assumindo que estão ordenadas por data)
+            const recentMatches = tournamentData.matches.slice(0, 3);
+            
+            recentMatches.forEach(match => {
+                const teamA = findTeamByName(match.teamA.name);
+                const teamB = findTeamByName(match.teamB.name);
                 
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'match-card';
@@ -1075,7 +832,7 @@
                 matchDiv.innerHTML = `
                     <div class="match-teams">
                         <span class="team-name captain">${teamA.captain || teamA.players[0]}</span>
-                        <span class="match-score">${match.scoreA} : ${match.scoreB}</span>
+                        <span class="match-score">${match.teamA.score} : ${match.teamB.score}</span>
                         <span class="team-name captain">${teamB.captain || teamB.players[0]}</span>
                     </div>
                     <div class="match-meta">
@@ -1093,31 +850,31 @@
                         </div>
                         <div class="players-container">
                             <div class="team-players">
-                                <div class="team-title">${match.teamA}</div>
-                                ${teamA.players.map(player => `
+                                <div class="team-title">${match.teamA.name}</div>
+                                ${match.teamA.players.map(player => `
                                     <div class="player-row">
-                                        <span class="player-name">${player}</span>
+                                        <span class="player-name">${player.name}</span>
                                         <div class="player-stats">
-                                            <span class="kills">${match.playersStats[player]?.kills || 0}</span>
-                                            <span class="assists">${match.playersStats[player]?.assists || 0}</span>
-                                            <span class="deaths">${match.playersStats[player]?.deaths || 0}</span>
-                                            <span class="hs">${match.playersStats[player]?.hs || 0}%</span>
-                                            <span class="adr">${match.playersStats[player]?.adr || 0}</span>
+                                            <span class="kills">${player.kills}</span>
+                                            <span class="assists">${player.assists}</span>
+                                            <span class="deaths">${player.deaths}</span>
+                                            <span class="hs">${player.hs}%</span>
+                                            <span class="adr">${player.adr}</span>
                                         </div>
                                     </div>
                                 `).join('')}
                             </div>
                             <div class="team-players">
-                                <div class="team-title">${match.teamB}</div>
-                                ${teamB.players.map(player => `
+                                <div class="team-title">${match.teamB.name}</div>
+                                ${match.teamB.players.map(player => `
                                     <div class="player-row">
-                                        <span class="player-name">${player}</span>
+                                        <span class="player-name">${player.name}</span>
                                         <div class="player-stats">
-                                            <span class="kills">${match.playersStats[player]?.kills || 0}</span>
-                                            <span class="assists">${match.playersStats[player]?.assists || 0}</span>
-                                            <span class="deaths">${match.playersStats[player]?.deaths || 0}</span>
-                                            <span class="hs">${match.playersStats[player]?.hs || 0}%</span>
-                                            <span class="adr">${match.playersStats[player]?.adr || 0}</span>
+                                            <span class="kills">${player.kills}</span>
+                                            <span class="assists">${player.assists}</span>
+                                            <span class="deaths">${player.deaths}</span>
+                                            <span class="hs">${player.hs}%</span>
+                                            <span class="adr">${player.adr}</span>
                                         </div>
                                     </div>
                                 `).join('')}
@@ -1199,15 +956,6 @@
                 container.appendChild(statCard);
             });
         }
-
-        // Inicializa o dashboard
-        document.addEventListener('DOMContentLoaded', () => {
-            renderTeams();
-            renderMatches();
-            renderTopPlayers();
-            renderGeneralStats();
-            renderAllMatches();
-        });
     </script>
 </body>
 </html>
