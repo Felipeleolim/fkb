@@ -35,6 +35,12 @@
             "captain": "Fok1nha", 
             "players": ["Fok1nha", "Baby", "Cremes", "Luffy", "Camis"],
             "logo": "team6.png"
+        },
+        { 
+            "name": "Reservas", 
+            "captain": "A definir ", 
+            "players": ["Neymar", "Jack", "Carnaval", "Felix", "Romantico"],
+            "logo": "team6.png"
         }
     ],
     "matches": [
