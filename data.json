@@ -15,7 +15,7 @@
         { 
             "name": "Time DYLAN", 
             "captain": "DYLAN", 
-            "players": ["DYLAN", "Rio", "Axel", "Aninha", "Bigas"],
+            "players": ["DYLAN", "Rio", "Axel", "Torvi", "Bigas"],
             "logo": "team3.png"
         },
         { 
@@ -76,27 +76,27 @@
             "teamA": {
                 "name": "Time DYLAN",
                 "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+                    {"name": "DYLAN", "kills": 17, "assists": 6, "deaths": 15, "hs": 64%, "adr": 0},
+                    {"name": "Jack (res)", "kills": 10, "assists": 8, "deaths": 14, "hs": 30%, "adr": 0},
+                    {"name": "Axel", "kills": 9, "assists": 6, "deaths": 10, "hs": 66%, "adr": 0},
+                    {"name": "Torvi", "kills": 16, "assists": 4, "deaths": 13, "hs": 37%, "adr": 0},
+                    {"name": "Bigas", "kills": 15, "assists": 4, "deaths": 13, "hs": 60%, "adr": 0}
                 ],
-                "score": 0
+                "score": 13
             },
             "teamB": {
                 "name": "Time Guy",
                 "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+                    {"name": "Guy", "kills": 14, "assists": 5, "deaths": 13, "hs": 42%, "adr": 0},
+                    {"name": "Datebayo", "kills": 13, "assists": 7, "deaths": 14 "hs": 7%, "adr": 0},
+                    {"name": "2T", "kills": 9, "assists": 5, "deaths": 13, "hs": 77%, "adr": 0},
+                    {"name": "Mizuno", "kills": 15, "assists": 1, "deaths": 12, "hs": 33%, "adr": 0},
+                    {"name": "Dino", "kills": 14, "assists": 6, "deaths": 15, "hs": 64%, "adr": 0}
                 ],
-                "score": 0
+                "score": 7
             },
-            "date": "A definir",
-            "map": "A definir"
+            "date": "30/07/2025",
+            "map": "Dust 2"
         },
         {
             "round": 1,
