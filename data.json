@@ -88,7 +88,7 @@
                 "name": "Time Guy",
                 "players": [
                     {"name": "Guy", "kills": 14, "assists": 5, "deaths": 13, "hs": 42, "adr": 0},
-                    {"name": "Datebayo", "kills": 13, "assists": 7, "deaths": 14 "hs": 7, "adr": 0},
+                   {"name": "Datebayo", "kills": 13, "assists": 7, "deaths": 14, "hs": 7, "adr": 0},
                     {"name": "2T", "kills": 9, "assists": 5, "deaths": 13, "hs": 77, "adr": 0},
                     {"name": "Mizuno", "kills": 15, "assists": 1, "deaths": 12, "hs": 33, "adr": 0},
                     {"name": "Dino", "kills": 14, "assists": 6, "deaths": 15, "hs": 64, "adr": 0}
