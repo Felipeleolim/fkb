@@ -49,22 +49,22 @@
             "teamA": {
                 "name": "Time CAIO",
                 "players": [
-                    {"name": "CAIO", "kills": 12, "assists": 4, "deaths": 11, "hs": 50%, "adr": 0},
-                    {"name": "Capita", "kills": 12, "assists": 6, "deaths": 13, "hs": 50%, "adr": 0},
-                    {"name": "snow", "kills": 32, "assists": 7, "deaths": 12, "hs": 59%, "adr": 0},
-                    {"name": "gabi", "kills": 11, "assists": 5, "deaths": 11, "hs": 27%, "adr": 0},
-                    {"name": "dipi", "kills": 18, "assists": 2, "deaths": 14, "hs": 38%, "adr": 0}
+                    {"name": "CAIO", "kills": 12, "assists": 4, "deaths": 11, "hs": 50, "adr": 0},
+                    {"name": "Capita", "kills": 12, "assists": 6, "deaths": 13, "hs": 50, "adr": 0},
+                    {"name": "snow", "kills": 32, "assists": 7, "deaths": 12, "hs": 59, "adr": 0},
+                    {"name": "gabi", "kills": 11, "assists": 5, "deaths": 11, "hs": 27, "adr": 0},
+                    {"name": "dipi", "kills": 18, "assists": 2, "deaths": 14, "hs": 38, "adr": 0}
                 ],
                 "score": 13
             },
             "teamB": {
                 "name": "Time GPKs",
                 "players": [
-                    {"name": "GPKs", "kills": 22, "assists": 3, "deaths": 17, "hs": 63%, "adr": 0},
-                    {"name": "Waka", "kills": 12, "assists": 5, "deaths": 15, "hs": 25%, "adr": 0},
-                    {"name": "Romantico (res) ", "kills": 6, "assists": 2, "deaths": 20%, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 14, "assists": 1, "deaths": 16, "hs": 18%, "adr": 0},
-                    {"name": "McAfee", "kills": 6, "assists": 7, "deaths": 18, "hs": 33%, "adr": 0}
+                    {"name": "GPKs", "kills": 22, "assists": 3, "deaths": 17, "hs": 63, "adr": 0},
+                    {"name": "Waka", "kills": 12, "assists": 5, "deaths": 15, "hs": 25, "adr": 0},
+                    {"name": "Romantico (res) ", "kills": 6, "assists": 2, "deaths": 20, "hs": 0, "adr": 0},
+                    {"name": "Givaldo", "kills": 14, "assists": 1, "deaths": 16, "hs": 18, "adr": 0},
+                    {"name": "McAfee", "kills": 6, "assists": 7, "deaths": 18, "hs": 33, "adr": 0}
                 ],
                 "score": 8
             },
@@ -76,22 +76,22 @@
             "teamA": {
                 "name": "Time DYLAN",
                 "players": [
-                    {"name": "DYLAN", "kills": 17, "assists": 6, "deaths": 15, "hs": 64%, "adr": 0},
-                    {"name": "Jack (res)", "kills": 10, "assists": 8, "deaths": 14, "hs": 30%, "adr": 0},
-                    {"name": "Axel", "kills": 9, "assists": 6, "deaths": 10, "hs": 66%, "adr": 0},
-                    {"name": "Torvi", "kills": 16, "assists": 4, "deaths": 13, "hs": 37%, "adr": 0},
-                    {"name": "Bigas", "kills": 15, "assists": 4, "deaths": 13, "hs": 60%, "adr": 0}
+                    {"name": "DYLAN", "kills": 17, "assists": 6, "deaths": 15, "hs": 64, "adr": 0},
+                    {"name": "Jack (res)", "kills": 10, "assists": 8, "deaths": 14, "hs": 30, "adr": 0},
+                    {"name": "Axel", "kills": 9, "assists": 6, "deaths": 10, "hs": 66, "adr": 0},
+                    {"name": "Torvi", "kills": 16, "assists": 4, "deaths": 13, "hs": 37, "adr": 0},
+                    {"name": "Bigas", "kills": 15, "assists": 4, "deaths": 13, "hs": 60, "adr": 0}
                 ],
                 "score": 13
             },
             "teamB": {
                 "name": "Time Guy",
                 "players": [
-                    {"name": "Guy", "kills": 14, "assists": 5, "deaths": 13, "hs": 42%, "adr": 0},
-                    {"name": "Datebayo", "kills": 13, "assists": 7, "deaths": 14 "hs": 7%, "adr": 0},
-                    {"name": "2T", "kills": 9, "assists": 5, "deaths": 13, "hs": 77%, "adr": 0},
-                    {"name": "Mizuno", "kills": 15, "assists": 1, "deaths": 12, "hs": 33%, "adr": 0},
-                    {"name": "Dino", "kills": 14, "assists": 6, "deaths": 15, "hs": 64%, "adr": 0}
+                    {"name": "Guy", "kills": 14, "assists": 5, "deaths": 13, "hs": 42, "adr": 0},
+                    {"name": "Datebayo", "kills": 13, "assists": 7, "deaths": 14 "hs": 7, "adr": 0},
+                    {"name": "2T", "kills": 9, "assists": 5, "deaths": 13, "hs": 77, "adr": 0},
+                    {"name": "Mizuno", "kills": 15, "assists": 1, "deaths": 12, "hs": 33, "adr": 0},
+                    {"name": "Dino", "kills": 14, "assists": 6, "deaths": 15, "hs": 64, "adr": 0}
                 ],
                 "score": 7
             },
