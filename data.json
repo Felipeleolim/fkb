@@ -130,24 +130,24 @@
             "teamA": {
                 "name": "Time CAIO",
                 "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+                    {"name": "CAIO", "kills": 15, "assists": 5, "deaths": 8, "hs": 26, "adr": 0},
+                    {"name": "Capita", "kills": 20, "assists": 3, "deaths": 9, "hs": 45, "adr": 0},
+                    {"name": "snow", "kills": 18, "assists": 5, "deaths": 7, "hs": 50, "adr": 0},
+                    {"name": "gabi", "kills": 9, "assists": 9, "deaths": 14, "hs": 22, "adr": 0},
+                    {"name": "dipi", "kills": 10, "assists": 4, "deaths": 6, "hs": 40, "adr": 0}
                 ],
-                "score": 0
+                "score": 13
             },
             "teamB": {
                 "name": "Time DYLAN",
                 "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+                    {"name": "DYLAN", "kills": 9, "assists": 5, "deaths": 15, "hs": 66, "adr": 0},
+                    {"name": "Rio", "kills": 12, "assists": 1, "deaths": 14, "hs": 83, "adr": 0},
+                    {"name": "Axel", "kills": 3, "assists": 3, "deaths": 15, "hs": 33, "adr": 0},
+                    {"name": "Torvi", "kills": 11, "assists": 3, "deaths": 13, "hs": 36, "adr": 0},
+                    {"name": "Bigas", "kills": 9, "assists": 1, "deaths": 15, "hs": 33, "adr": 0}
                 ],
-                "score": 0
+                "score": 2
             },
             "date": "A definir",
             "map": "A definir"
@@ -451,3 +451,4 @@
         }
     ]
 }
+
