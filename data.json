@@ -184,27 +184,27 @@
             "teamA": {
                 "name": "Time Guy",
                 "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+                    {"name": "Guy", "kills": 11, "assists": 4, "deaths": 16, "hs": 0, "adr": 0},
+                    {"name": "Datebayo", "kills": 6, "assists": 2, "deaths": 13, "hs": 0, "adr": 0},
+                    {"name": "2T", "kills": 13, "assists": 3, "deaths": 14, "hs": 0, "adr": 0},
+                    {"name": "Mizuno", "kills": 13, "assists": 1, "deaths": 14, "hs": 0, "adr": 0},
+                    {"name": "Dino", "kills": 5, "assists": 2, "deaths": 15, "hs": 0, "adr": 0}
                 ],
-                "score": 0
+                "score": 6
             },
             "teamB": {
                 "name": "Time Fok1nha",
                 "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+                    {"name": "Fok1nha", "kills": 14, "assists": 1, "deaths": 7, "hs": 0, "adr": 0},
+                    {"name": "Baby", "kills": 17, "assists": 7, "deaths": 8, "hs": 0, "adr": 0},
+                    {"name": "Cremes", "kills": 17, "assists": 5, "deaths": 10, "hs": 0, "adr": 0},
+                    {"name": "Bomb Marley", "kills": 14, "assists": 2, "deaths": 12, "hs": 0, "adr": 0},
+                    {"name": "Camis", "kills": 8, "assists": 8, "deaths": 9, "hs": 0, "adr": 0}
                 ],
-                "score": 0
+                "score": 13
             },
-            "date": "19/11/2023",
-            "map": "A definir"
+            "date": "03/08/2025",
+            "map": "Nuke"
         },
         {
             "round": 3,
@@ -451,5 +451,6 @@
         }
     ]
 }
+
 
 
