@@ -163,7 +163,7 @@
                     {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
                     {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
                 ],
-                "score": 0
+                "score": WO
             },
             "teamB": {
                 "name": "Time Ariel",
@@ -174,9 +174,9 @@
                     {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
                     {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
                 ],
-                "score": 0
+                "score": WO
             },
-            "date": "A definir",
+            "date": "03/08/2025",
             "map": "A definir"
         },
         {
@@ -451,6 +451,7 @@
         }
     ]
 }
+
 
 
 
