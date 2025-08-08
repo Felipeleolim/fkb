@@ -298,7 +298,7 @@
                     {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
                     {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
                 ],
-                "score": 0
+                "score": 13
             },
             "teamB": {
                 "name": "Time Ariel",
@@ -309,7 +309,7 @@
                     {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
                     {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
                 ],
-                "score": 0
+                "score": 9
             },
             "date": "A definir",
             "map": "A definir"
@@ -451,6 +451,7 @@
         }
     ]
 }
+
 
 
 
