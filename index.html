@@ -655,6 +655,230 @@
             color: var(--success);
         }
 
+        /* Upload e Gerenciamento de Dados */
+        .data-management {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .upload-btn, .export-btn, .add-match-btn {
+            padding: 10px 20px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .upload-btn:hover, .export-btn:hover, .add-match-btn:hover {
+            background: #e64a19;
+            transform: translateY(-2px);
+        }
+
+        .export-btn {
+            background: var(--secondary);
+        }
+
+        .export-btn:hover {
+            background: #1976d2;
+        }
+
+        .add-match-btn {
+            background: var(--success);
+        }
+
+        .add-match-btn:hover {
+            background: #388e3c;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: var(--darker);
+            border-radius: 12px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 30px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            border-top: 4px solid var(--primary);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--gray);
+        }
+
+        .modal-header h2 {
+            color: var(--accent);
+            font-size: 1.5rem;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            color: var(--light);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .close-modal:hover {
+            color: var(--primary);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--gray);
+            border-radius: 6px;
+            color: var(--light);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(255, 87, 34, 0.2);
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        .player-stats-input {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .player-stats-input input {
+            padding: 8px 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--gray);
+            border-radius: 4px;
+            color: var(--light);
+        }
+
+        .player-stats-header {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+            font-size: 0.8rem;
+            color: #a0aec0;
+            text-align: center;
+        }
+
+        .player-stats-header span {
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            padding: 12px 25px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary:hover {
+            background: #e64a19;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            padding: 12px 25px;
+            background: var(--gray);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-secondary:hover {
+            background: #4a5568;
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .current-data {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+
+        .current-data h3 {
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+
         @keyframes pulse {
             0% { opacity: 1; }
             50% { opacity: 0.5; }
@@ -698,6 +922,19 @@
             .playoff-team-score {
                 font-size: 1.5rem;
             }
+
+            .data-management {
+                flex-direction: column;
+            }
+
+            .form-row {
+                flex-direction: column;
+            }
+
+            .player-stats-input, .player-stats-header {
+                grid-template-columns: 1fr;
+                gap: 5px;
+            }
         }
     </style>
 </head>
@@ -717,6 +954,20 @@
                 </p>
             </div>
         </header>
+
+        <!-- Gerenciamento de Dados -->
+        <div class="data-management">
+            <button class="upload-btn" id="uploadBtn">
+                <i class="fas fa-upload"></i> Carregar Dados
+            </button>
+            <input type="file" id="fileInput" class="file-input" accept=".json">
+            <button class="export-btn" id="exportBtn">
+                <i class="fas fa-download"></i> Exportar Dados
+            </button>
+            <button class="add-match-btn" id="addMatchBtn">
+                <i class="fas fa-plus"></i> Adicionar Partida
+            </button>
+        </div>
 
         <div class="dashboard">
             <!-- Times Participantes -->
@@ -784,8 +1035,289 @@
         </div>
     </div>
 
+    <!-- Modal para adicionar partida -->
+    <div class="modal" id="addMatchModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Adicionar Nova Partida</h2>
+                <button class="close-modal" id="closeModal">&times;</button>
+            </div>
+            <form id="matchForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="round">Rodada</label>
+                        <input type="number" id="round" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Data</label>
+                        <input type="date" id="date" class="form-control" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="teamA">Time A</label>
+                        <select id="teamA" class="form-control" required>
+                            <option value="">Selecione um time</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="teamB">Time B</label>
+                        <select id="teamB" class="form-control" required>
+                            <option value="">Selecione um time</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="scoreA">Placar Time A</label>
+                        <input type="number" id="scoreA" class="form-control" min="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="scoreB">Placar Time B</label>
+                        <input type="number" id="scoreB" class="form-control" min="0" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="map">Mapa</label>
+                    <input type="text" id="map" class="form-control" required>
+                </div>
+                
+                <h3>Estatísticas dos Jogadores - Time A</h3>
+                <div class="player-stats-header">
+                    <span>Jogador</span>
+                    <span>Kills</span>
+                    <span>Assists</span>
+                    <span>Deaths</span>
+                    <span>HS%</span>
+                    <span>ADR</span>
+                </div>
+                <div id="teamAStats"></div>
+                
+                <h3>Estatísticas dos Jogadores - Time B</h3>
+                <div class="player-stats-header">
+                    <span>Jogador</span>
+                    <span>Kills</span>
+                    <span>Assists</span>
+                    <span>Deaths</span>
+                    <span>HS%</span>
+                    <span>ADR</span>
+                </div>
+                <div id="teamBStats"></div>
+                
+                <div class="form-actions">
+                    <button type="button" class="btn-secondary" id="cancelBtn">Cancelar</button>
+                    <button type="submit" class="btn-primary">Adicionar Partida</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script>
-        let tournamentData = {};
+        let tournamentData = {
+            teams: [],
+            matches: [],
+            playoffs: { semifinals: [], final: null }
+        };
+
+        // Elementos do DOM
+        const uploadBtn = document.getElementById('uploadBtn');
+        const fileInput = document.getElementById('fileInput');
+        const exportBtn = document.getElementById('exportBtn');
+        const addMatchBtn = document.getElementById('addMatchBtn');
+        const addMatchModal = document.getElementById('addMatchModal');
+        const closeModal = document.getElementById('closeModal');
+        const cancelBtn = document.getElementById('cancelBtn');
+        const matchForm = document.getElementById('matchForm');
+        const teamAStats = document.getElementById('teamAStats');
+        const teamBStats = document.getElementById('teamBStats');
+        const teamASelect = document.getElementById('teamA');
+        const teamBSelect = document.getElementById('teamB');
+
+        // Event Listeners
+        uploadBtn.addEventListener('click', () => fileInput.click());
+        fileInput.addEventListener('change', handleFileUpload);
+        exportBtn.addEventListener('click', exportData);
+        addMatchBtn.addEventListener('click', openAddMatchModal);
+        closeModal.addEventListener('click', closeAddMatchModal);
+        cancelBtn.addEventListener('click', closeAddMatchModal);
+        matchForm.addEventListener('submit', handleMatchSubmit);
+
+        // Função para lidar com o upload de arquivo
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    tournamentData = data;
+                    initializeDashboard();
+                    showNotification('Dados carregados com sucesso!', 'success');
+                } catch (error) {
+                    console.error('Erro ao processar o arquivo:', error);
+                    showNotification('Erro ao carregar o arquivo. Verifique o formato.', 'error');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        // Função para exportar dados
+        function exportData() {
+            const dataStr = JSON.stringify(tournamentData, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'fkb-championship-data.json';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+            
+            showNotification('Dados exportados com sucesso!', 'success');
+        }
+
+        // Função para abrir o modal de adicionar partida
+        function openAddMatchModal() {
+            // Preencher os selects de times
+            teamASelect.innerHTML = '<option value="">Selecione um time</option>';
+            teamBSelect.innerHTML = '<option value="">Selecione um time</option>';
+            
+            tournamentData.teams.forEach(team => {
+                const optionA = document.createElement('option');
+                optionA.value = team.name;
+                optionA.textContent = team.name;
+                teamASelect.appendChild(optionA);
+                
+                const optionB = document.createElement('option');
+                optionB.value = team.name;
+                optionB.textContent = team.name;
+                teamBSelect.appendChild(optionB);
+            });
+            
+            // Preencher os campos de estatísticas dos jogadores
+            teamAStats.innerHTML = '';
+            teamBStats.innerHTML = '';
+            
+            addMatchModal.style.display = 'flex';
+        }
+
+        // Função para fechar o modal de adicionar partida
+        function closeAddMatchModal() {
+            addMatchModal.style.display = 'none';
+            matchForm.reset();
+        }
+
+        // Função para lidar com o envio do formulário de partida
+        function handleMatchSubmit(event) {
+            event.preventDefault();
+            
+            const round = parseInt(document.getElementById('round').value);
+            const date = document.getElementById('date').value;
+            const teamAName = document.getElementById('teamA').value;
+            const teamBName = document.getElementById('teamB').value;
+            const scoreA = parseInt(document.getElementById('scoreA').value);
+            const scoreB = parseInt(document.getElementById('scoreB').value);
+            const map = document.getElementById('map').value;
+            
+            // Validar que os times são diferentes
+            if (teamAName === teamBName) {
+                showNotification('Os times devem ser diferentes!', 'error');
+                return;
+            }
+            
+            // Encontrar os times selecionados
+            const teamA = tournamentData.teams.find(team => team.name === teamAName);
+            const teamB = tournamentData.teams.find(team => team.name === teamBName);
+            
+            if (!teamA || !teamB) {
+                showNotification('Times não encontrados!', 'error');
+                return;
+            }
+            
+            // Criar a nova partida
+            const newMatch = {
+                round: round,
+                date: date,
+                teamA: {
+                    name: teamA.name,
+                    score: scoreA,
+                    players: teamA.players.map(player => ({
+                        name: player,
+                        kills: 0,
+                        assists: 0,
+                        deaths: 0,
+                        hs: 0,
+                        adr: 0
+                    }))
+                },
+                teamB: {
+                    name: teamB.name,
+                    score: scoreB,
+                    players: teamB.players.map(player => ({
+                        name: player,
+                        kills: 0,
+                        assists: 0,
+                        deaths: 0,
+                        hs: 0,
+                        adr: 0
+                    }))
+                },
+                map: map
+            };
+            
+            // Adicionar a partida aos dados
+            tournamentData.matches.push(newMatch);
+            
+            // Ordenar as partidas por rodada e data
+            tournamentData.matches.sort((a, b) => {
+                if (a.round !== b.round) return a.round - b.round;
+                return new Date(a.date) - new Date(b.date);
+            });
+            
+            // Atualizar o dashboard
+            initializeDashboard();
+            
+            // Fechar o modal
+            closeAddMatchModal();
+            
+            showNotification('Partida adicionada com sucesso!', 'success');
+        }
+
+        // Função para mostrar notificações
+        function showNotification(message, type) {
+            // Criar elemento de notificação
+            const notification = document.createElement('div');
+            notification.textContent = message;
+            notification.style.position = 'fixed';
+            notification.style.top = '20px';
+            notification.style.right = '20px';
+            notification.style.padding = '15px 20px';
+            notification.style.borderRadius = '6px';
+            notification.style.fontWeight = '600';
+            notification.style.zIndex = '1001';
+            notification.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.3)';
+            
+            if (type === 'success') {
+                notification.style.backgroundColor = 'var(--success)';
+                notification.style.color = 'white';
+            } else {
+                notification.style.backgroundColor = 'var(--primary)';
+                notification.style.color = 'white';
+            }
+            
+            document.body.appendChild(notification);
+            
+            // Remover a notificação após 3 segundos
+            setTimeout(() => {
+                document.body.removeChild(notification);
+            }, 3000);
+        }
 
         // Função para encontrar um time pelo nome
         function findTeamByName(teamName) {
@@ -1363,36 +1895,42 @@
             `;
         }
 
-        // Carrega os dados e inicializa o dashboard
-        fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                tournamentData = data;
-                // Inicializa o dashboard após carregar os dados
-                renderTeams();
-                renderMatches();
-                renderTopPlayers();
-                renderGeneralStats();
-                renderAllMatches();
-                renderPlayoffSemifinals();
-                renderPlayoffFinal();
-            })
-            .catch(error => {
-                console.error('Erro ao carregar o arquivo JSON:', error);
-                // Carrega dados locais se houver falha na requisição
-                tournamentData = {
-                    teams: [],
-                    matches: [],
-                    playoffs: { semifinals: [], final: null }
-                };
-                renderTeams();
-                renderMatches();
-                renderTopPlayers();
-                renderGeneralStats();
-                renderAllMatches();
-                renderPlayoffSemifinals();
-                renderPlayoffFinal();
-            });
+        // Inicializa o dashboard
+        function initializeDashboard() {
+            renderTeams();
+            renderMatches();
+            renderTopPlayers();
+            renderGeneralStats();
+            renderAllMatches();
+            renderPlayoffSemifinals();
+            renderPlayoffFinal();
+        }
+
+        // Inicializa o dashboard quando a página carrega
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tenta carregar dados do localStorage
+            const savedData = localStorage.getItem('fkbChampionshipData');
+            if (savedData) {
+                try {
+                    tournamentData = JSON.parse(savedData);
+                    initializeDashboard();
+                    showNotification('Dados carregados do armazenamento local!', 'success');
+                } catch (error) {
+                    console.error('Erro ao carregar dados do localStorage:', error);
+                }
+            } else {
+                // Se não houver dados salvos, inicializa com dados vazios
+                initializeDashboard();
+            }
+            
+            // Salva os dados no localStorage sempre que houver mudanças
+            const originalPush = Array.prototype.push;
+            Array.prototype.push = function() {
+                const result = originalPush.apply(this, arguments);
+                localStorage.setItem('fkbChampionshipData', JSON.stringify(tournamentData));
+                return result;
+            };
+        });
     </script>
 </body>
 </html>
