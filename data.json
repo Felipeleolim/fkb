@@ -1,460 +1,457 @@
 {
-    "teams": [
-        { 
-            "name": "Time CAIO", 
-            "captain": "CAIO", 
-            "players": ["CAIO", "Capita", "snow", "gabi", "dipi"],
-            "logo": "team1.png"
-        },
-        { 
-            "name": "Time GPKs", 
-            "captain": "GPKs", 
-            "players": ["GPKs", "Waka", "recruta", "Givaldo", "Jaguara"],
-            "logo": "team2.png"
-        },
-        { 
-            "name": "Time DYLAN", 
-            "captain": "DYLAN", 
-            "players": ["DYLAN", "Rio", "Axel", "Torvi", "Bigas"],
-            "logo": "team3.png"
-        },
-        { 
-            "name": "Time Guy", 
-            "captain": "Guy", 
-            "players": ["Guy", "Datebayo", "2T", "Mizuno", "Dino"],
-            "logo": "team4.png"
-        },
-        { 
-            "name": "Time Ariel", 
-            "captain": "Ariel", 
-            "players": ["Ariel", "Lord", "Gorila", "GGamba", "Bala"],
-            "logo": "team5.png"
-        },
-        { 
-            "name": "Time Fok1nha", 
-            "captain": "Fok1nha", 
-            "players": ["Fok1nha", "Baby", "Cremes", "Luffy", "Camis"],
-            "logo": "team6.png"
-        },
-        { 
-            "name": "Reservas", 
-            "captain": "A definir ", 
-            "players": ["Neymar", "Jack", "Carnaval", "Felix", "Romantico"],
-            "logo": "reserva.png"
-        }
-    ],
-    "matches": [
-        {
-            "round": 1,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 12, "assists": 4, "deaths": 11, "hs": 50, "adr": 0},
-                    {"name": "Capita", "kills": 12, "assists": 6, "deaths": 13, "hs": 50, "adr": 0},
-                    {"name": "snow", "kills": 32, "assists": 7, "deaths": 12, "hs": 59, "adr": 0},
-                    {"name": "gabi", "kills": 11, "assists": 5, "deaths": 11, "hs": 27, "adr": 0},
-                    {"name": "dipi", "kills": 18, "assists": 2, "deaths": 14, "hs": 38, "adr": 0}
-                ],
-                "score": 13
-            },
-            "teamB": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 22, "assists": 3, "deaths": 17, "hs": 63, "adr": 0},
-                    {"name": "Waka", "kills": 12, "assists": 5, "deaths": 15, "hs": 25, "adr": 0},
-                    {"name": "Romantico (res) ", "kills": 6, "assists": 2, "deaths": 20, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 14, "assists": 1, "deaths": 16, "hs": 18, "adr": 0},
-                    {"name": "McAfee", "kills": 6, "assists": 7, "deaths": 18, "hs": 33, "adr": 0}
-                ],
-                "score": 8
-            },
-            "date": "29/07/2025",
-            "map": "Ancient"
-        },
-        {
-            "round": 1,
-            "teamA": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 17, "assists": 6, "deaths": 15, "hs": 64, "adr": 0},
-                    {"name": "Jack", "kills": 10, "assists": 8, "deaths": 14, "hs": 30, "adr": 0},
-                    {"name": "Axel", "kills": 9, "assists": 6, "deaths": 10, "hs": 66, "adr": 0},
-                    {"name": "Torvi", "kills": 16, "assists": 4, "deaths": 13, "hs": 37, "adr": 0},
-                    {"name": "Bigas", "kills": 15, "assists": 4, "deaths": 13, "hs": 60, "adr": 0}
-                ],
-                "score": 13
-            },
-            "teamB": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 14, "assists": 5, "deaths": 13, "hs": 42, "adr": 0},
-                   {"name": "Datebayo", "kills": 13, "assists": 7, "deaths": 14, "hs": 7, "adr": 0},
-                    {"name": "2T", "kills": 9, "assists": 5, "deaths": 13, "hs": 77, "adr": 0},
-                    {"name": "Mizuno", "kills": 15, "assists": 1, "deaths": 12, "hs": 33, "adr": 0},
-                    {"name": "Dino", "kills": 14, "assists": 6, "deaths": 15, "hs": 64, "adr": 0}
-                ],
-                "score": 7
-            },
-            "date": "30/07/2025",
-            "map": "Dust 2"
-        },
-        {
-            "round": 1,
-            "teamA": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Neymar (Res)", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 2,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 15, "assists": 5, "deaths": 8, "hs": 26, "adr": 0},
-                    {"name": "Capita", "kills": 20, "assists": 3, "deaths": 9, "hs": 45, "adr": 0},
-                    {"name": "snow", "kills": 18, "assists": 5, "deaths": 7, "hs": 50, "adr": 0},
-                    {"name": "gabi", "kills": 9, "assists": 9, "deaths": 14, "hs": 22, "adr": 0},
-                    {"name": "dipi", "kills": 10, "assists": 4, "deaths": 6, "hs": 40, "adr": 0}
-                ],
-                "score": 13
-            },
-            "teamB": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 9, "assists": 5, "deaths": 15, "hs": 66, "adr": 0},
-                    {"name": "Rio", "kills": 12, "assists": 1, "deaths": 14, "hs": 83, "adr": 0},
-                    {"name": "Axel", "kills": 3, "assists": 3, "deaths": 15, "hs": 33, "adr": 0},
-                    {"name": "Torvi", "kills": 11, "assists": 3, "deaths": 13, "hs": 36, "adr": 0},
-                    {"name": "Bigas", "kills": 9, "assists": 1, "deaths": 15, "hs": 33, "adr": 0}
-                ],
-                "score": 2
-            },
-            "date": "01/08/2025",
-            "map": "Nuke"
-        },
-        {
-            "round": 2,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": "WO"
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": "WO"
-            },
-            "date": "03/08/2025",
-            "map": "A definir"
-        },
-        {
-            "round": 2,
-            "teamA": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 11, "assists": 4, "deaths": 16, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 6, "assists": 2, "deaths": 13, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 13, "assists": 3, "deaths": 14, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 13, "assists": 1, "deaths": 14, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 5, "assists": 2, "deaths": 15, "hs": 0, "adr": 0}
-                ],
-                "score": 6
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 14, "assists": 1, "deaths": 7, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 17, "assists": 7, "deaths": 8, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 17, "assists": 5, "deaths": 10, "hs": 0, "adr": 0},
-                    {"name": "Bomb Marley", "kills": 14, "assists": 2, "deaths": 12, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 8, "assists": 8, "deaths": 9, "hs": 0, "adr": 0}
-                ],
-                "score": 13
-            },
-            "date": "03/08/2025",
-            "map": "Nuke"
-        },
-        {
-            "round": 3,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 13
-            },
-            "teamB": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 7
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 3,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 14
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 17
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 3,
-            "teamA": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 4,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 13
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 9
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 4,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 4,
-            "teamA": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 5,
-            "teamA": {
-                "name": "Time CAIO",
-                "players": [
-                    {"name": "CAIO", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Capita", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "snow", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "gabi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Fok1nha",
-                "players": [
-                    {"name": "Fok1nha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Baby", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Cremes", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Luffy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 5,
-            "teamA": {
-                "name": "Time GPKs",
-                "players": [
-                    {"name": "GPKs", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Waka", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "recruta", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Givaldo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Jaguara", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time DYLAN",
-                "players": [
-                    {"name": "DYLAN", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Axel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Aninha", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bigas", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        },
-        {
-            "round": 5,
-            "teamA": {
-                "name": "Time Guy",
-                "players": [
-                    {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Datebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "2T", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Mizuno", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Dino", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "teamB": {
-                "name": "Time Ariel",
-                "players": [
-                    {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "GGamba", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
-                    {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
-                ],
-                "score": 0
-            },
-            "date": "A definir",
-            "map": "A definir"
-        }
-    ]
+  "teams": [
+    {
+      "name": "FKB",
+      "captain": "Lord",
+      "players": ["Lord", "Gorila", "Carnaval", "Ariel", "Bala"],
+      "reserves": ["Givaldo"],
+      "logo": "fkb.png"
+    },
+    {
+      "name": "RANGERS",
+      "captain": "Guy",
+      "players": ["Guy", "Rio", "Dipi", "2t", "Dattebayo"],
+      "reserves": ["mizuno"],
+      "logo": "rangers.png"
+    },
+    {
+      "name": "CAMIS E BEBES",
+      "captain": "Camis",
+      "players": ["Camis", "K", "Lamiks", "GuiSep", "Wakanda"],
+      "reserves": ["Starchild"],
+      "logo": "camis_e_bebes.png"
+    },
+    {
+      "name": "Teletubies",
+      "captain": "Alone",
+      "players": ["Alone", "Gepeto", "João", "Torvi", "Capitão"],
+      "reserves": ["Caio"],
+      "logo": "teletubies.png"
+    },
+    {
+      "name": "AKATSUKI",
+      "captain": "BabyBelaBala",
+      "players": ["BabyBelaBala", "ONinja", "Psicologo", "Cremesz", "Xan23"],
+      "reserves": ["Fock1nh4"],
+      "logo": "akatsuki.png"
+    },
+    {
+      "name": "Capivaras REPUBLICA",
+      "captain": "Lima404",
+      "players": ["Lima404", "Tio Henry", "LostAngel", "TaTa", "Nick"],
+      "reserves": ["JCczar"],
+      "logo": "capivaras_republica.png"
+    }
+  ],
+  "matches": [
+    {
+      "round": 1,
+      "teamA": {
+        "name": "FKB",
+        "players": [
+          {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Carnaval", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "RANGERS",
+        "players": [
+          {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "2t", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dattebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "29/10/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 1,
+      "teamA": {
+        "name": "CAMIS E BEBES",
+        "players": [
+          {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "K", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Lamiks", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "GuiSep", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Wakanda", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "Teletubies",
+        "players": [
+          {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "João", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Torvi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Capitão", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "31/10/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 2,
+      "teamA": {
+        "name": "FKB",
+        "players": [
+          {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Carnaval", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "AKATSUKI",
+        "players": [
+          {"name": "BabyBelaBala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "ONinja", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Psicologo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Cremesz", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Xan23", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "01/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 2,
+      "teamA": {
+        "name": "Capivaras REPUBLICA",
+        "players": [
+          {"name": "Lima404", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Tio Henry", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "LostAngel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "TaTa", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Nick", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "AKATSUKI",
+        "players": [
+          {"name": "BabyBelaBala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "ONinja", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Psicologo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Cremesz", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Xan23", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "02/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 3,
+      "teamA": {
+        "name": "Teletubies",
+        "players": [
+          {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "João", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Torvi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Capitão", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "Capivaras REPUBLICA",
+        "players": [
+          {"name": "Lima404", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Tio Henry", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "LostAngel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "TaTa", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Nick", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "03/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 3,
+      "teamA": {
+        "name": "CAMIS E BEBES",
+        "players": [
+          {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "K", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Lamiks", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "GuiSep", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Wakanda", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "RANGERS",
+        "players": [
+          {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "2t", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dattebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "05/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 4,
+      "teamA": {
+        "name": "AKATSUKI",
+        "players": [
+          {"name": "BabyBelaBala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "ONinja", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Psicologo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Cremesz", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Xan23", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "CAMIS E BEBES",
+        "players": [
+          {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "K", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Lamiks", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "GuiSep", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Wakanda", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "07/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 4,
+      "teamA": {
+        "name": "Capivaras REPUBLICA",
+        "players": [
+          {"name": "Lima404", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Tio Henry", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "LostAngel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "TaTa", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Nick", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "CAMIS E BEBES",
+        "players": [
+          {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "K", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Lamiks", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "GuiSep", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Wakanda", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "08/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 5,
+      "teamA": {
+        "name": "AKATSUKI",
+        "players": [
+          {"name": "BabyBelaBala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "ONinja", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Psicologo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Cremesz", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Xan23", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "RANGERS",
+        "players": [
+          {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "2t", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dattebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "09/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 5,
+      "teamA": {
+        "name": "Teletubies",
+        "players": [
+          {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "João", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Torvi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Capitão", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "AKATSUKI",
+        "players": [
+          {"name": "BabyBelaBala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "ONinja", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Psicologo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Cremesz", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Xan23", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "10/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 6,
+      "teamA": {
+        "name": "RANGERS",
+        "players": [
+          {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "2t", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dattebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "Teletubies",
+        "players": [
+          {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "João", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Torvi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Capitão", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "12/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 6,
+      "teamA": {
+        "name": "FKB",
+        "players": [
+          {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Carnaval", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "CAMIS E BEBES",
+        "players": [
+          {"name": "Camis", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "K", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Lamiks", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "GuiSep", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Wakanda", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "14/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 7,
+      "teamA": {
+        "name": "Capivaras REPUBLICA",
+        "players": [
+          {"name": "Lima404", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Tio Henry", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "LostAngel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "TaTa", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Nick", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "RANGERS",
+        "players": [
+          {"name": "Guy", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Rio", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dipi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "2t", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Dattebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "15/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 7,
+      "teamA": {
+        "name": "FKB",
+        "players": [
+          {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Carnaval", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "Capivaras REPUBLICA",
+        "players": [
+          {"name": "Lima404", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Tio Henry", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "LostAngel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "TaTa", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Nick", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "16/11/2025",
+      "map": "A definir"
+    },
+    {
+      "round": 8,
+      "teamA": {
+        "name": "FKB",
+        "players": [
+          {"name": "Lord", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gorila", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Carnaval", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "teamB": {
+        "name": "Teletubies",
+        "players": [
+          {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "João", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Torvi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
+          {"name": "Capitão", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
+        ],
+        "score": 0
+      },
+      "date": "17/11/2025",
+      "map": "A definir"
+    }
+  ],
+  "playoffs": {
+    "semifinals": [],
+    "final": null
+  }
 }
-
-
-
-
-
-
-
