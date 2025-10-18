@@ -217,20 +217,15 @@
             font-size: 1.1rem;
             color: var(--light);
             flex: 1;
+            text-align: center;
         }
 
-        .team-name.captain {
-            color: var(--accent);
-            position: relative;
-            padding-left: 20px;
+        .team-name.left {
+            text-align: left;
         }
 
-        .team-name.captain::before {
-            content: '©';
-            position: absolute;
-            left: 0;
-            color: var(--accent);
-            font-size: 0.8rem;
+        .team-name.right {
+            text-align: right;
         }
 
         .match-score {
@@ -698,6 +693,16 @@
             .playoff-team-score {
                 font-size: 1.5rem;
             }
+
+            .team-name {
+                font-size: 0.9rem;
+            }
+
+            .match-score {
+                font-size: 1.2rem;
+                margin: 0 10px;
+                min-width: 50px;
+            }
         }
     </style>
 </head>
@@ -713,7 +718,7 @@
             </div>
             <div class="tournament-info">
                 <p style="color: var(--secondary); font-weight: 500; display: flex; align-items: center; gap: 8px;">
-                    <i class="fas fa-calendar-alt"></i> 01-20 AGO 2025
+                    <i class="fas fa-calendar-alt"></i> 29/10 - 27/11 2025
                 </p>
             </div>
         </header>
@@ -842,15 +847,13 @@
                     
                     if (i < roundMatches.length) {
                         const match = roundMatches[i];
-                        const teamA = findTeamByName(match.teamA.name);
-                        const teamB = findTeamByName(match.teamB.name);
                         
                         matchCell.innerHTML = `
                             <div class="match-card" onclick="toggleMatchDetails(this)">
                                 <div class="match-teams">
-                                    <span class="team-name captain">${teamA.captain || teamA.players[0]}</span>
+                                    <span class="team-name left">${match.teamA.name}</span>
                                     <span class="match-score">${match.teamA.score} : ${match.teamB.score}</span>
-                                    <span class="team-name captain">${teamB.captain || teamB.players[0]}</span>
+                                    <span class="team-name right">${match.teamB.name}</span>
                                 </div>
                                 <div class="match-meta">
                                     <span><i class="fas fa-map"></i> ${match.map}</span>
@@ -993,6 +996,7 @@
                     <h3><i class="fas fa-users"></i> ${team.name}</h3>
                     ${team.captain ? `<p><strong>Capitão:</strong> ${team.captain}</p>` : ''}
                     <p><strong>Jogadores:</strong> ${team.players.join(', ')}</p>
+                    ${team.reserves && team.reserves.length > 0 ? `<p><strong>Reservas:</strong> ${team.reserves.join(', ')}</p>` : ''}
                 `;
                 container.appendChild(teamDiv);
             });
@@ -1007,17 +1011,14 @@
             const recentMatches = tournamentData.matches.slice(0, 3);
             
             recentMatches.forEach(match => {
-                const teamA = findTeamByName(match.teamA.name);
-                const teamB = findTeamByName(match.teamB.name);
-                
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'match-card';
                 matchDiv.onclick = function() { toggleMatchDetails(this); };
                 matchDiv.innerHTML = `
                     <div class="match-teams">
-                        <span class="team-name captain">${teamA.captain || teamA.players[0]}</span>
+                        <span class="team-name left">${match.teamA.name}</span>
                         <span class="match-score">${match.teamA.score} : ${match.teamB.score}</span>
-                        <span class="team-name captain">${teamB.captain || teamB.players[0]}</span>
+                        <span class="team-name right">${match.teamB.name}</span>
                     </div>
                     <div class="match-meta">
                         <span><i class="fas fa-map"></i> ${match.map}</span>
@@ -1396,4 +1397,3 @@
     </script>
 </body>
 </html>
-
