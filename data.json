@@ -22,11 +22,11 @@
       "logo": "camis_e_bebes.png"
     },
     {
-      "name": "Teletubies",
+      "name": "looney toones",
       "captain": "Alone",
       "players": ["Alone", "Gepeto", "João", "Torvi", "Capitão"],
       "reserves": ["Caio"],
-      "logo": "teletubies.png"
+      "logo": "looney toones.png"
     },
     {
       "name": "AKATSUKI",
@@ -85,7 +85,7 @@
         "score": 0
       },
       "teamB": {
-        "name": "Teletubies",
+        "name": "looney toones",
         "players": [
           {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
@@ -155,7 +155,7 @@
     {
       "round": 3,
       "teamA": {
-        "name": "Teletubies",
+        "name": "looney toones",
         "players": [
           {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
@@ -290,7 +290,7 @@
     {
       "round": 5,
       "teamA": {
-        "name": "Teletubies",
+        "name": "looney toones",
         "players": [
           {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
@@ -328,7 +328,7 @@
         "score": 0
       },
       "teamB": {
-        "name": "Teletubies",
+        "name": "looney toones",
         "players": [
           {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
@@ -436,7 +436,7 @@
         "score": 0
       },
       "teamB": {
-        "name": "Teletubies",
+        "name": "looney toones",
         "players": [
           {"name": "Alone", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Gepeto", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
@@ -455,3 +455,4 @@
     "final": null
   }
 }
+
