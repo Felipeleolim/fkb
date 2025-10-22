@@ -19,14 +19,14 @@
       "captain": "Camis",
       "players": ["Camis", "K", "Lamiks", "GuiSep", "Wakanda"],
       "reserves": ["Starchild"],
-      "logo": "camis_e_bebes.png"
+      "logo": "camis_e_bebes.jpeg"
     },
     {
       "name": "looney toones",
       "captain": "Alone",
       "players": ["Alone", "Gepeto", "João", "Torvi", "Capitão"],
       "reserves": ["Caio"],
-      "logo": "looney toones.png"
+      "logo": "looney_toones.jpeg"
     },
     {
       "name": "AKATSUKI",
@@ -455,4 +455,5 @@
     "final": null
   }
 }
+
 
