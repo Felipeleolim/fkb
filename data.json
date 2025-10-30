@@ -66,7 +66,7 @@
           {"name": "2t", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Dattebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": WO
+        "score": "WO"
       },
       "date": "29/10/2025",
       "map": "Dust 2"
@@ -455,6 +455,7 @@
     "final": null
   }
 }
+
 
 
 
