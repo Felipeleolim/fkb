@@ -82,7 +82,7 @@
           {"name": "GuiSep", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Wakanda", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 8
       },
       "teamB": {
         "name": "looney toones",
@@ -93,10 +93,10 @@
           {"name": "Torvi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Capitão", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 13
       },
       "date": "31/10/2025",
-      "map": "A definir"
+      "map": "Dust2"
     },
     {
       "round": 2,
@@ -109,7 +109,7 @@
           {"name": "Ariel", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Bala", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 6
       },
       "teamB": {
         "name": "AKATSUKI",
@@ -120,7 +120,7 @@
           {"name": "Cremesz", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Xan23", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 13
       },
       "date": "01/11/2025",
       "map": "A definir"
@@ -136,7 +136,7 @@
           {"name": "TaTa", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Nick", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 13
       },
       "teamB": {
         "name": "AKATSUKI",
@@ -147,10 +147,10 @@
           {"name": "Cremesz", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Xan23", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 11
       },
       "date": "02/11/2025",
-      "map": "A definir"
+      "map": "Ancient"
     },
     {
       "round": 3,
@@ -163,7 +163,7 @@
           {"name": "Torvi", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Capitão", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 3
       },
       "teamB": {
         "name": "Capivaras REPUBLICA",
@@ -174,10 +174,10 @@
           {"name": "TaTa", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Nick", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 13
       },
       "date": "03/11/2025",
-      "map": "A definir"
+      "map": "Ancient"
     },
     {
       "round": 3,
@@ -190,7 +190,7 @@
           {"name": "GuiSep", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Wakanda", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 13
       },
       "teamB": {
         "name": "RANGERS",
@@ -201,7 +201,7 @@
           {"name": "2t", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0},
           {"name": "Dattebayo", "kills": 0, "assists": 0, "deaths": 0, "hs": 0, "adr": 0}
         ],
-        "score": 0
+        "score": 11
       },
       "date": "05/11/2025",
       "map": "A definir"
@@ -455,6 +455,7 @@
     "final": null
   }
 }
+
 
 
 
